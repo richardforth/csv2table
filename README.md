@@ -1,6 +1,6 @@
 # csv2table
 
-```bash
+```
 $ cat mydata.csv
 Example CSV Data for conversion
 Col1,Col2,Col3,Col4,Col5
