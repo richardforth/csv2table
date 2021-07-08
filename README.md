@@ -1,5 +1,15 @@
 # csv2table
 
+## Installation
+
+```
+./configure
+make
+make install
+```
+
+## Demo's
+
 ```
 $ cat mydata.csv
 Example CSV Data for conversion
