@@ -12,12 +12,6 @@ pipeline {
         sh 'docker compose ps'
       }
     }
-    stage("Start Docker Container") {
-      steps {
-        sh 'docker compose up --no-color -d'
-        sh 'docker compose ps'
-      }
-    }
     post { 
       always { 
         sh 'docker compose down --remove-orphans -v' 
